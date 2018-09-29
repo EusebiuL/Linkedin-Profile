@@ -2,13 +2,8 @@ package lk
 
 import cats.effect.Effect
 import lk.entity.{AccessResponse, Profile}
-import org.http4s.blaze.http.Uri
+import org.http4s.Uri
 
-/**
-  * @author Denis-Eusebiu Lazar eusebiu.lazar@busymachines.com
-  * @since 29/09/18
-  *
-  */
 
 trait LinkedinAlgebra[F[_]] {
 

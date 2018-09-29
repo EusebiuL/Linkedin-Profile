@@ -8,7 +8,7 @@ import org.http4s.server.blaze.BlazeBuilder
 import fs2.Stream
 import scala.concurrent.ExecutionContext
 
-object MeteowriteServerApp extends StreamApp[IO] {
+object LinkedInServerApp extends StreamApp[IO] {
 
   override def stream(
       args: List[String],

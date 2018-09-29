@@ -3,21 +3,21 @@
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/eusebiu/linkedinintegration/lk-core/src/main/scala/lk/core/BlockingAlgebra.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/Users/eusebiu/linkedinintegration/lk-core/target/scala-2.12/classes/lk/core/PhantomType.class)[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/Users/eusebiu/linkedinintegration/lk-core/src/main/scala/lk/core/PhantomType.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/eusebiu/linkedinintegration/lk-core/src/main/scala/lk/core/BlockingAlgebra.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/eusebiu/linkedinintegration/lk-core/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/eusebiu/linkedinintegration/lk-core/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 384266a5 for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 1bbfa37b for Scala compiler version 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-Ypartial-unification[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m

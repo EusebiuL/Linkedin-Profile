@@ -6,11 +6,7 @@ import io.chrisdavenport.linebacker.DualContext
 import io.chrisdavenport.linebacker.contexts.Executors
 import fs2.Stream
 import scala.concurrent.ExecutionContext
-/**
-  * @author Denis-Eusebiu Lazar eusebiu.lazar@busymachines.com
-  * @since 29/09/18
-  *
-  */
+
 
 trait LinkedinContext[F[_]] extends DualContext[F]
 

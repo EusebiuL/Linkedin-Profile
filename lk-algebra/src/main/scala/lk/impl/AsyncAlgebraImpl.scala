@@ -66,7 +66,7 @@ final private[lk] class AsyncAlgebraImpl[F[_]](config: LinkedinConfig)(
       httpClient <- _httpClient
       getProfile <- GET(
         uri(
-          "https://api.linkedin.com/v1/people/~:(email-address,first-name,last-name,picture-url)?format=json"
+          "https://api.linkedin.com/v1/people/~:(first-name,headline,last-name,picture-url)?format=json"
         ),
         Authorization(Credentials.Token(AuthScheme.Bearer, token))
       )

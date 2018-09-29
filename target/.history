@@ -57,3 +57,6 @@ compile
 clean
 update
 compile
+update
+compile
+git status
