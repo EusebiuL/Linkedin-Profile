@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMPath" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/lk-algebra" />
+            <option value="$PROJECT_DIR$/lk-algebra/project" />
+            <option value="$PROJECT_DIR$/lk-config" />
+            <option value="$PROJECT_DIR$/lk-config/project" />
+            <option value="$PROJECT_DIR$/lk-core" />
+            <option value="$PROJECT_DIR$/lk-core/project" />
+            <option value="$PROJECT_DIR$/lk-json" />
+            <option value="$PROJECT_DIR$/lk-json/project" />
+            <option value="$PROJECT_DIR$/lk-service" />
+            <option value="$PROJECT_DIR$/lk-service/project" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/server/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.1.6" />
+        <option name="useAutoImport" value="true" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

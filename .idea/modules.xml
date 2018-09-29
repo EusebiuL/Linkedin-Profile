@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedinintegration.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedinintegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkedinintegration-build.iml" filepath="$PROJECT_DIR$/.idea/modules/linkedinintegration-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-algebra.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-algebra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-algebra-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-algebra-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-config.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-config-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-config-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-core.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-core-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-core-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-json.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-json-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-json-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-service.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lk-service-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lk-service-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-build.iml" filepath="$PROJECT_DIR$/.idea/modules/server-build.iml" />
+    </modules>
+  </component>
+</project>

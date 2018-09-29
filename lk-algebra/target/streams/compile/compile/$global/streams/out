@@ -1,0 +1,114 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinAlgebra.scala:14:28: F does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def getAuthorizationUri: F[AuthUri][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinAlgebra.scala:16:60: F does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def getAccessResponse(code: AuthCode, state: AuthState): F[AccessResponse][0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:25:27: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object AuthCode extends PhantomType[String][0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:26:28: type Type is not a member of object lk.package.AuthCode[0m
+[0m[[0m[31merror[0m] [0m[0m  type AuthCode = AuthCode.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:28:28: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object AuthState extends PhantomType[String][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:29:30: type Type is not a member of object lk.package.AuthState[0m
+[0m[[0m[31merror[0m] [0m[0m  type AuthState = AuthState.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinAlgebra.scala:18:53: F does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def getProfileForAccessToken(token: AccessToken): F[Profile][0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:7:30: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object AccessToken extends PhantomType[String][0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:8:34: type Type is not a member of object lk.package.AccessToken[0m
+[0m[[0m[31merror[0m] [0m[0m  type AccessToken = AccessToken.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinAlgebra.scala:24:115: type F takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def effect[F[_]: Effect](config: LinkedinConfig)(implicit linkedinContext: LinkedinContext[F]): LinkedinAlgebra[F] = new impl.AsyncAlgebraImpl[F](config)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinContext.scala:5:11: object chrisdavenport is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.chrisdavenport.linebacker.DualContext[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinContext.scala:15:37: not found: type DualContext[0m
+[0m[[0m[31merror[0m] [0m[0mtrait LinkedinContext[F[_]] extends DualContext[F][0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:17:27: type F takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m) extends LinkedinAlgebra[F] with Http4sClientDsl[F] with LinkedinJSON with BlockingAlgebra[F]{[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:17:59: not found: type LinkedinJSON[0m
+[0m[[0m[31merror[0m] [0m[0m) extends LinkedinAlgebra[F] with Http4sClientDsl[F] with LinkedinJSON with BlockingAlgebra[F]{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:17:77: not found: type BlockingAlgebra[0m
+[0m[[0m[31merror[0m] [0m[0m) extends LinkedinAlgebra[F] with Http4sClientDsl[F] with LinkedinJSON with BlockingAlgebra[F]{[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinContext.scala:6:11: object chrisdavenport is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.chrisdavenport.linebacker.contexts.Executors[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinContext.scala:19:65: wrong number of type arguments for Stream, should be 1[0m
+[0m[[0m[31merror[0m] [0m[0m  def create[F[_]: Sync: Async](implicit ec: ExecutionContext): Stream[F, LinkedinContext[F]] =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/LinkedinContext.scala:20:5: not found: value Executors[0m
+[0m[[0m[31merror[0m] [0m[0m    Executors[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:22:26: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object AuthUri extends PhantomType[Uri][0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:20:12: lk.AuthUri.type does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    AuthUri([0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:23:26: type Type is not a member of object lk.package.AuthUri[0m
+[0m[[0m[31merror[0m] [0m[0m  type AuthUri = AuthUri.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:38:16: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : state.type (with underlying type lk.AuthState)[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def ==: ?}[0m
+[0m[[0m[31merror[0m] [0m[0m      _ <- if (state == config.state) F.unit[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:40:15: not found: value POST[0m
+[0m[[0m[31merror[0m] [0m[0m      post <- POST([0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:41:9: not found: value uri[0m
+[0m[[0m[31merror[0m] [0m[0m        uri("https://www.linkedin.com/oauth/v2/accessToken"),[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:45:37: value redirectUri is not a member of lk.LinkedinConfig[0m
+[0m[[0m[31merror[0m] [0m[0m          "redirect_uri"  -> config.redirectUri,[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:50:15: not found: value block[0m
+[0m[[0m[31merror[0m] [0m[0m      resp <- block {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:65:21: not found: value GET[0m
+[0m[[0m[31merror[0m] [0m[0m      getProfile <- GET([0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:66:9: not found: value uri[0m
+[0m[[0m[31merror[0m] [0m[0m        uri([0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/impl/AsyncAlgebraImpl.scala:71:18: not found: value block[0m
+[0m[[0m[31merror[0m] [0m[0m      profile <- block {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:10:38: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object TokenExpirationDate extends PhantomType[LocalDateTime][0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:11:50: type Type is not a member of object lk.package.TokenExpirationDate[0m
+[0m[[0m[31merror[0m] [0m[0m  type TokenExpirationDate = TokenExpirationDate.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:13:28: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object FirstName extends PhantomType[String][0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:14:30: type Type is not a member of object lk.package.FirstName[0m
+[0m[[0m[31merror[0m] [0m[0m  type FirstName = FirstName.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:16:27: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object LastName extends PhantomType[String][0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:17:28: type Type is not a member of object lk.package.LastName[0m
+[0m[[0m[31merror[0m] [0m[0m  type LastName = LastName.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:19:25: not found: type PhantomType[0m
+[0m[[0m[31merror[0m] [0m[0m  object PicURL extends PhantomType[String][0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eusebiu/linkedinintegration/lk-algebra/src/main/scala/lk/package.scala:20:24: type Type is not a member of object lk.package.PicURL[0m
+[0m[[0m[31merror[0m] [0m[0m  type PicURL = PicURL.Type[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m37 errors found[0m
